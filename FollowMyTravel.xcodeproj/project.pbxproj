@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040E3D071B9566330074F5E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E3D061B9566330074F5E1 /* AppDelegate.swift */; };
+		040E3D091B9566330074F5E1 /* FMTProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E3D081B9566330074F5E1 /* FMTProfileViewController.swift */; };
+		040E3D0C1B9566330074F5E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040E3D0A1B9566330074F5E1 /* Main.storyboard */; };
+		040E3D0E1B9566330074F5E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040E3D0D1B9566330074F5E1 /* Images.xcassets */; };
+		040E3D111B9566330074F5E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040E3D0F1B9566330074F5E1 /* LaunchScreen.xib */; };
+		040E3D1D1B9566330074F5E1 /* FollowMyTravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E3D1C1B9566330074F5E1 /* FollowMyTravelTests.swift */; };
+		045A5DC01B9B7E790010A964 /* FMTTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A5DBF1B9B7E790010A964 /* FMTTabBarController.swift */; };
+		04F804601B99A5A200E94FAD /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F8045F1B99A5A200E94FAD /* Auth.storyboard */; };
+		04F804621B99A5B300E94FAD /* NewsFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F804611B99A5B300E94FAD /* NewsFeed.storyboard */; };
+		04F804641B99A5BD00E94FAD /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F804631B99A5BD00E94FAD /* Search.storyboard */; };
+		04F804661B99A5CF00E94FAD /* AddPlace.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F804651B99A5CF00E94FAD /* AddPlace.storyboard */; };
+		04F804681B99A5D700E94FAD /* Guides.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F804671B99A5D700E94FAD /* Guides.storyboard */; };
+		04F8046A1B99A5E400E94FAD /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F804691B99A5E400E94FAD /* Profile.storyboard */; };
+		04F8046C1B99A5ED00E94FAD /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F8046B1B99A5ED00E94FAD /* Menu.storyboard */; };
+		04F804761B9B0E9B00E94FAD /* FMTConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F804751B9B0E9B00E94FAD /* FMTConstants.swift */; };
+		04F804791B9B0EA700E94FAD /* FMTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F804771B9B0EA700E94FAD /* FMTManager.swift */; };
+		04F8047A1B9B0EA700E94FAD /* FMTRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F804781B9B0EA700E94FAD /* FMTRequestManager.swift */; };
+		04F8047C1B9B115D00E94FAD /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F8047B1B9B115D00E94FAD /* UIColor+Hex.swift */; };
+		04F8047F1B9B12C800E94FAD /* FMTProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F8047E1B9B12C800E94FAD /* FMTProtocol.swift */; };
+		04F804831B9B13E900E94FAD /* FMTUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F804811B9B13E900E94FAD /* FMTUserData.swift */; };
+		04F804841B9B13E900E94FAD /* FMTPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F804821B9B13E900E94FAD /* FMTPost.swift */; };
+		04F804861B9B142200E94FAD /* FMTMyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F804851B9B142200E94FAD /* FMTMyInfo.swift */; };
+		04F804881B9B172000E94FAD /* FMTNewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F804871B9B172000E94FAD /* FMTNewsFeedViewController.swift */; };
+		04F8048A1B9B173300E94FAD /* FMTSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F804891B9B173300E94FAD /* FMTSearchViewController.swift */; };
+		04F8048C1B9B17A200E94FAD /* FMTAddPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F8048B1B9B17A200E94FAD /* FMTAddPlaceViewController.swift */; };
+		04F8048E1B9B17B500E94FAD /* FMTGuidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F8048D1B9B17B500E94FAD /* FMTGuidesViewController.swift */; };
+		04F804901B9B17BE00E94FAD /* FMTMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F8048F1B9B17BE00E94FAD /* FMTMenuViewController.swift */; };
+		04F804941B9B184800E94FAD /* FMTSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F804931B9B184800E94FAD /* FMTSignInViewController.swift */; };
+		04F804961B9B185200E94FAD /* FMTSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F804951B9B185200E94FAD /* FMTSignUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		040E3D171B9566330074F5E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040E3CF91B9566330074F5E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040E3D001B9566330074F5E1;
+			remoteInfo = FollowMyTravel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040E3D011B9566330074F5E1 /* FollowMyTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FollowMyTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040E3D051B9566330074F5E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040E3D061B9566330074F5E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		040E3D081B9566330074F5E1 /* FMTProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMTProfileViewController.swift; sourceTree = "<group>"; };
+		040E3D0B1B9566330074F5E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040E3D0D1B9566330074F5E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		040E3D101B9566330074F5E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		040E3D161B9566330074F5E1 /* FollowMyTravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FollowMyTravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		040E3D1B1B9566330074F5E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040E3D1C1B9566330074F5E1 /* FollowMyTravelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowMyTravelTests.swift; sourceTree = "<group>"; };
+		045A5DBF1B9B7E790010A964 /* FMTTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMTTabBarController.swift; sourceTree = "<group>"; };
+		04F8045F1B99A5A200E94FAD /* Auth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		04F804611B99A5B300E94FAD /* NewsFeed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NewsFeed.storyboard; sourceTree = "<group>"; };
+		04F804631B99A5BD00E94FAD /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		04F804651B99A5CF00E94FAD /* AddPlace.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddPlace.storyboard; sourceTree = "<group>"; };
+		04F804671B99A5D700E94FAD /* Guides.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Guides.storyboard; sourceTree = "<group>"; };
+		04F804691B99A5E400E94FAD /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		04F8046B1B99A5ED00E94FAD /* Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
+		04F804751B9B0E9B00E94FAD /* FMTConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMTConstants.swift; sourceTree = "<group>"; };
+		04F804771B9B0EA700E94FAD /* FMTManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMTManager.swift; sourceTree = "<group>"; };
+		04F804781B9B0EA700E94FAD /* FMTRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMTRequestManager.swift; sourceTree = "<group>"; };
+		04F8047B1B9B115D00E94FAD /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		04F8047E1B9B12C800E94FAD /* FMTProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMTProtocol.swift; sourceTree = "<group>"; };
+		04F804811B9B13E900E94FAD /* FMTUserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMTUserData.swift; sourceTree = "<group>"; };
+		04F804821B9B13E900E94FAD /* FMTPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMTPost.swift; sourceTree = "<group>"; };
+		04F804851B9B142200E94FAD /* FMTMyInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMTMyInfo.swift; sourceTree = "<group>"; };
+		04F804871B9B172000E94FAD /* FMTNewsFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMTNewsFeedViewController.swift; sourceTree = "<group>"; };
+		04F804891B9B173300E94FAD /* FMTSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMTSearchViewController.swift; sourceTree = "<group>"; };
+		04F8048B1B9B17A200E94FAD /* FMTAddPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMTAddPlaceViewController.swift; sourceTree = "<group>"; };
+		04F8048D1B9B17B500E94FAD /* FMTGuidesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMTGuidesViewController.swift; sourceTree = "<group>"; };
+		04F8048F1B9B17BE00E94FAD /* FMTMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMTMenuViewController.swift; sourceTree = "<group>"; };
+		04F804931B9B184800E94FAD /* FMTSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMTSignInViewController.swift; sourceTree = "<group>"; };
+		04F804951B9B185200E94FAD /* FMTSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMTSignUpViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040E3CFE1B9566330074F5E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040E3D131B9566330074F5E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040E3CF81B9566330074F5E1 = {
+			isa = PBXGroup;
+			children = (
+				040E3D031B9566330074F5E1 /* FollowMyTravel */,
+				040E3D191B9566330074F5E1 /* FollowMyTravelTests */,
+				040E3D021B9566330074F5E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		040E3D021B9566330074F5E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040E3D011B9566330074F5E1 /* FollowMyTravel.app */,
+				040E3D161B9566330074F5E1 /* FollowMyTravelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040E3D031B9566330074F5E1 /* FollowMyTravel */ = {
+			isa = PBXGroup;
+			children = (
+				040E3D061B9566330074F5E1 /* AppDelegate.swift */,
+				04F8047D1B9B124400E94FAD /* Managers & Constants */,
+				04F804801B9B12FC00E94FAD /* Protocols */,
+				04F804721B9B0D8200E94FAD /* Model */,
+				04F804711B9B0D7A00E94FAD /* Contoller */,
+				04F804701B9B0D6E00E94FAD /* Interface */,
+				040E3D041B9566330074F5E1 /* Supporting Files */,
+			);
+			path = FollowMyTravel;
+			sourceTree = "<group>";
+		};
+		040E3D041B9566330074F5E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F8047B1B9B115D00E94FAD /* UIColor+Hex.swift */,
+				040E3D051B9566330074F5E1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		040E3D191B9566330074F5E1 /* FollowMyTravelTests */ = {
+			isa = PBXGroup;
+			children = (
+				040E3D1C1B9566330074F5E1 /* FollowMyTravelTests.swift */,
+				040E3D1A1B9566330074F5E1 /* Supporting Files */,
+			);
+			path = FollowMyTravelTests;
+			sourceTree = "<group>";
+		};
+		040E3D1A1B9566330074F5E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				040E3D1B1B9566330074F5E1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04F8046F1B9B0D6300E94FAD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				040E3D0A1B9566330074F5E1 /* Main.storyboard */,
+				04F8045F1B99A5A200E94FAD /* Auth.storyboard */,
+				04F804611B99A5B300E94FAD /* NewsFeed.storyboard */,
+				04F804631B99A5BD00E94FAD /* Search.storyboard */,
+				04F804651B99A5CF00E94FAD /* AddPlace.storyboard */,
+				04F804671B99A5D700E94FAD /* Guides.storyboard */,
+				04F804691B99A5E400E94FAD /* Profile.storyboard */,
+				04F8046B1B99A5ED00E94FAD /* Menu.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		04F804701B9B0D6E00E94FAD /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				04F8046F1B9B0D6300E94FAD /* Storyboards */,
+				040E3D0F1B9566330074F5E1 /* LaunchScreen.xib */,
+				040E3D0D1B9566330074F5E1 /* Images.xcassets */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		04F804711B9B0D7A00E94FAD /* Contoller */ = {
+			isa = PBXGroup;
+			children = (
+				045A5DBF1B9B7E790010A964 /* FMTTabBarController.swift */,
+				04F804921B9B183300E94FAD /* Auth */,
+				04F804911B9B182E00E94FAD /* Tabs */,
+			);
+			name = Contoller;
+			sourceTree = "<group>";
+		};
+		04F804721B9B0D8200E94FAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04F804851B9B142200E94FAD /* FMTMyInfo.swift */,
+				04F804811B9B13E900E94FAD /* FMTUserData.swift */,
+				04F804821B9B13E900E94FAD /* FMTPost.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		04F8047D1B9B124400E94FAD /* Managers & Constants */ = {
+			isa = PBXGroup;
+			children = (
+				04F804771B9B0EA700E94FAD /* FMTManager.swift */,
+				04F804781B9B0EA700E94FAD /* FMTRequestManager.swift */,
+				04F804751B9B0E9B00E94FAD /* FMTConstants.swift */,
+			);
+			name = "Managers & Constants";
+			sourceTree = "<group>";
+		};
+		04F804801B9B12FC00E94FAD /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				04F8047E1B9B12C800E94FAD /* FMTProtocol.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		04F804911B9B182E00E94FAD /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				04F804871B9B172000E94FAD /* FMTNewsFeedViewController.swift */,
+				04F804891B9B173300E94FAD /* FMTSearchViewController.swift */,
+				04F8048B1B9B17A200E94FAD /* FMTAddPlaceViewController.swift */,
+				04F8048D1B9B17B500E94FAD /* FMTGuidesViewController.swift */,
+				040E3D081B9566330074F5E1 /* FMTProfileViewController.swift */,
+				04F8048F1B9B17BE00E94FAD /* FMTMenuViewController.swift */,
+			);
+			name = Tabs;
+			sourceTree = "<group>";
+		};
+		04F804921B9B183300E94FAD /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				04F804931B9B184800E94FAD /* FMTSignInViewController.swift */,
+				04F804951B9B185200E94FAD /* FMTSignUpViewController.swift */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040E3D001B9566330074F5E1 /* FollowMyTravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040E3D201B9566330074F5E1 /* Build configuration list for PBXNativeTarget "FollowMyTravel" */;
+			buildPhases = (
+				040E3CFD1B9566330074F5E1 /* Sources */,
+				040E3CFE1B9566330074F5E1 /* Frameworks */,
+				040E3CFF1B9566330074F5E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FollowMyTravel;
+			productName = FollowMyTravel;
+			productReference = 040E3D011B9566330074F5E1 /* FollowMyTravel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		040E3D151B9566330074F5E1 /* FollowMyTravelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040E3D231B9566330074F5E1 /* Build configuration list for PBXNativeTarget "FollowMyTravelTests" */;
+			buildPhases = (
+				040E3D121B9566330074F5E1 /* Sources */,
+				040E3D131B9566330074F5E1 /* Frameworks */,
+				040E3D141B9566330074F5E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040E3D181B9566330074F5E1 /* PBXTargetDependency */,
+			);
+			name = FollowMyTravelTests;
+			productName = FollowMyTravelTests;
+			productReference = 040E3D161B9566330074F5E1 /* FollowMyTravelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040E3CF91B9566330074F5E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = whalex;
+				TargetAttributes = {
+					040E3D001B9566330074F5E1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					040E3D151B9566330074F5E1 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 040E3D001B9566330074F5E1;
+					};
+				};
+			};
+			buildConfigurationList = 040E3CFC1B9566330074F5E1 /* Build configuration list for PBXProject "FollowMyTravel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040E3CF81B9566330074F5E1;
+			productRefGroup = 040E3D021B9566330074F5E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040E3D001B9566330074F5E1 /* FollowMyTravel */,
+				040E3D151B9566330074F5E1 /* FollowMyTravelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040E3CFF1B9566330074F5E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F804661B99A5CF00E94FAD /* AddPlace.storyboard in Resources */,
+				04F804681B99A5D700E94FAD /* Guides.storyboard in Resources */,
+				04F804601B99A5A200E94FAD /* Auth.storyboard in Resources */,
+				04F804621B99A5B300E94FAD /* NewsFeed.storyboard in Resources */,
+				040E3D0C1B9566330074F5E1 /* Main.storyboard in Resources */,
+				04F8046C1B99A5ED00E94FAD /* Menu.storyboard in Resources */,
+				040E3D111B9566330074F5E1 /* LaunchScreen.xib in Resources */,
+				04F8046A1B99A5E400E94FAD /* Profile.storyboard in Resources */,
+				04F804641B99A5BD00E94FAD /* Search.storyboard in Resources */,
+				040E3D0E1B9566330074F5E1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040E3D141B9566330074F5E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040E3CFD1B9566330074F5E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040E3D091B9566330074F5E1 /* FMTProfileViewController.swift in Sources */,
+				04F8048C1B9B17A200E94FAD /* FMTAddPlaceViewController.swift in Sources */,
+				040E3D071B9566330074F5E1 /* AppDelegate.swift in Sources */,
+				04F804831B9B13E900E94FAD /* FMTUserData.swift in Sources */,
+				04F804861B9B142200E94FAD /* FMTMyInfo.swift in Sources */,
+				045A5DC01B9B7E790010A964 /* FMTTabBarController.swift in Sources */,
+				04F8048A1B9B173300E94FAD /* FMTSearchViewController.swift in Sources */,
+				04F804941B9B184800E94FAD /* FMTSignInViewController.swift in Sources */,
+				04F8047A1B9B0EA700E94FAD /* FMTRequestManager.swift in Sources */,
+				04F8047F1B9B12C800E94FAD /* FMTProtocol.swift in Sources */,
+				04F804881B9B172000E94FAD /* FMTNewsFeedViewController.swift in Sources */,
+				04F8047C1B9B115D00E94FAD /* UIColor+Hex.swift in Sources */,
+				04F804841B9B13E900E94FAD /* FMTPost.swift in Sources */,
+				04F8048E1B9B17B500E94FAD /* FMTGuidesViewController.swift in Sources */,
+				04F804961B9B185200E94FAD /* FMTSignUpViewController.swift in Sources */,
+				04F804901B9B17BE00E94FAD /* FMTMenuViewController.swift in Sources */,
+				04F804761B9B0E9B00E94FAD /* FMTConstants.swift in Sources */,
+				04F804791B9B0EA700E94FAD /* FMTManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040E3D121B9566330074F5E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040E3D1D1B9566330074F5E1 /* FollowMyTravelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		040E3D181B9566330074F5E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040E3D001B9566330074F5E1 /* FollowMyTravel */;
+			targetProxy = 040E3D171B9566330074F5E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		040E3D0A1B9566330074F5E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040E3D0B1B9566330074F5E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040E3D0F1B9566330074F5E1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040E3D101B9566330074F5E1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040E3D1E1B9566330074F5E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		040E3D1F1B9566330074F5E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040E3D211B9566330074F5E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FollowMyTravel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		040E3D221B9566330074F5E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FollowMyTravel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		040E3D241B9566330074F5E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FollowMyTravelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FollowMyTravel.app/FollowMyTravel";
+			};
+			name = Debug;
+		};
+		040E3D251B9566330074F5E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FollowMyTravelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FollowMyTravel.app/FollowMyTravel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040E3CFC1B9566330074F5E1 /* Build configuration list for PBXProject "FollowMyTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040E3D1E1B9566330074F5E1 /* Debug */,
+				040E3D1F1B9566330074F5E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040E3D201B9566330074F5E1 /* Build configuration list for PBXNativeTarget "FollowMyTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040E3D211B9566330074F5E1 /* Debug */,
+				040E3D221B9566330074F5E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040E3D231B9566330074F5E1 /* Build configuration list for PBXNativeTarget "FollowMyTravelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040E3D241B9566330074F5E1 /* Debug */,
+				040E3D251B9566330074F5E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040E3CF91B9566330074F5E1 /* Project object */;
+}

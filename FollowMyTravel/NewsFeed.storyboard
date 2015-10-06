@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="W8c-Lt-rvv">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--News Feed View Controller-->
+        <scene sceneID="xOu-db-BzP">
+            <objects>
+                <viewController storyboardIdentifier="feed" id="ajO-4g-oMU" customClass="FMTNewsFeedViewController" customModule="FollowMyTravel" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Sxy-zU-wvr"/>
+                        <viewControllerLayoutGuide type="bottom" id="5It-jL-awj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3HL-2n-mjh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="RmH-Ki-2yp">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="A3N-eM-8g1">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="A3N-eM-8g1" id="8CG-of-th7">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RmH-Ki-2yp" firstAttribute="top" secondItem="Sxy-zU-wvr" secondAttribute="bottom" constant="-64" id="Vn8-wU-KX7"/>
+                            <constraint firstItem="RmH-Ki-2yp" firstAttribute="leading" secondItem="3HL-2n-mjh" secondAttribute="leading" id="ccf-iW-lke"/>
+                            <constraint firstAttribute="trailing" secondItem="RmH-Ki-2yp" secondAttribute="trailing" id="cyI-rK-kgh"/>
+                            <constraint firstItem="5It-jL-awj" firstAttribute="top" secondItem="RmH-Ki-2yp" secondAttribute="bottom" id="j1O-9E-tM5"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="feed" id="aVh-ZK-81g"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="CV3-kP-Oms"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bip-co-BZh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="702" y="352"/>
+        </scene>
+        <!--Feed-->
+        <scene sceneID="VUe-Yc-Ajs">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="W8c-Lt-rvv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Feed" id="Kj1-JO-XFS"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="nsn-DF-sLn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ajO-4g-oMU" kind="relationship" relationship="rootViewController" id="0iz-h3-EQL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sdu-FD-bcl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="170" y="352"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="feed" width="30" height="26"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
